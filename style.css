@@ -1,0 +1,108 @@
+:root {
+    --cor-primaria: #0A3871;
+    --cor-secundaria: #D8DFE8;
+    }
+
+* {
+    background: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 5%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    columns: var(--cor-primaria);
+    margin-top: 50px;
+    text-transform: lowercase;
+}
+::placeholder { color: var(--cor-primaria) }
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background: white;
+    background-image: url(/assets/pesquisa.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: var(--cor-primaria);
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.alerta {
+    position: absolute;
+    left: 6%;
+    right: 0%;
+    margin-top: 150px;
+    width: 328px;
+}
+.botoes {
+    display: flex;
+    margin-top: 188px;
+
+}
+
+.btn-desencriptar {
+    background: var(--cor-secundaria);
+    border: 1px solid var(--cor-primaria);
+    border-radius: 24px;
+    color: var(--cor-primaria)
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+    .btn-copiar {
+        border: 1px solid var(--cor-primaria);
+        border-radius: 24px;
+        color: var(--cor-primaria);
+        cursor: pointer;
+        height: 67px;
+        margin-left: 108px;
+        margin-top: 438px;
+        position: absolute;
+        width: 336px;
+}
+
+.rodape {
+    padding: 5px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 5px;
+    font-weight: 400;
+}
